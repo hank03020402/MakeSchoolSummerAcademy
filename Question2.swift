@@ -56,7 +56,7 @@ func test(sequence:[Int])-> Bool{
     else{
         var i = 0
         while i < index{
-            if i != index{
+            if i != index-1{
                 if sequence[index] == sequence[i]{
                     break
                 }
