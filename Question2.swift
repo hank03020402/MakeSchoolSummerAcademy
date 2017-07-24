@@ -33,7 +33,7 @@ func testx2(start: Int,sequence:[Int])->(Bool,Int){
     }
     else{
         if sequence[start]*2 == sequence[start+1]{
-            return (true,start)
+            return (true,count)
         }
         else {
             return (false,start)
@@ -56,7 +56,7 @@ func test(sequence:[Int])-> Bool{
     else{
         var i = 0
         while i < index{
-            if i != index-1{
+            if i != index{
                 if sequence[index] == sequence[i]{
                     break
                 }
